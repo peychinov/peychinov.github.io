@@ -1,6 +1,6 @@
 (function($) {
-  
-  "use strict";  
+
+  "use strict";
 
   $(window).on('load', function() {
 
@@ -20,12 +20,12 @@
     /* ==========================================================================
        countdown timer
        ========================================================================== */
-     jQuery('#clock').countdown('2018/06/21',function(event){
+    $('#clock').countdown('2018/04/23 18:00', function(event){
       var $this=jQuery(this).html(event.strftime(''
-      +'<div class="time-entry days"><span>%-D</span> Days</div> '
-      +'<div class="time-entry hours"><span>%H</span> Hours</div> '
-      +'<div class="time-entry minutes"><span>%M</span> Minutes</div> '
-      +'<div class="time-entry seconds"><span>%S</span> Seconds</div> '));
+      +'<div class="time-entry days"><span>%-D</span> Дни</div> '
+      +'<div class="time-entry hours"><span>%H</span> Часа</div> '
+      +'<div class="time-entry minutes"><span>%M</span> Минути</div> '
+      +'<div class="time-entry seconds"><span>%S</span> Секунди</div> '));
     });
 
     /* slicknav mobile menu active  */
@@ -45,17 +45,17 @@
     });
     wow.init();
 
-    /* Nivo Lightbox 
+    /* Nivo Lightbox
     ========================================================*/
     $('.lightbox').nivoLightbox({
         effect: 'fadeScale',
         keyboardNav: true,
       });
 
-    // one page navigation 
+    // one page navigation
     $('.navbar-nav').onePageNav({
             currentClass: 'active'
-    }); 
+    });
 
     /* Back Top Link active
     ========================================================*/
@@ -77,6 +77,6 @@
         return false;
       });
 
-  });      
+  });
 
 }(jQuery));
