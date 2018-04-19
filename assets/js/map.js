@@ -2,9 +2,9 @@ function initMap(){
 
 'use strict';
 	//set your google maps parameters
-	var $latitude = 42.141864,
-		$longitude = 24.743153,
-		$map_zoom = 16;
+	var $latitude = 42.142108885116,
+		$longitude = 24.743391036987,
+		$map_zoom = 18;
 
 	//google map custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
