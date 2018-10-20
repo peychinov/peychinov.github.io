@@ -21,7 +21,7 @@
     /* ==========================================================================
        countdown timer
        ========================================================================== */
-    $('#clock').countdown('2018/11/14 18:30', function(event){
+    $('#clock').countdown('2018/11/12 18:30', function(event){
       var $this=jQuery(this).html(event.strftime(''
       +'<div class="time-entry days"><span>%-D</span> Дни</div> '
       +'<div class="time-entry hours"><span>%H</span> Часа</div> '
